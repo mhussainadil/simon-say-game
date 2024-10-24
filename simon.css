@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    overflow: auto;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    border: 10px solid  black;
+border-radius: 20%;
+margin: 1.5rem;
+
+} 
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.b1{
+background-color: rgb(132, 90, 97);
+}
+.b3{
+    background-color: rgb(153, 213, 233);
+}
+.b2{
+    background-color: rgb(238, 173, 88);
+}
+.b4{
+    background-color: slategray;
+}
+.flashh{
+    background-color: lightblue;
+    animation: flash linear 0.5s 1;
+    width: 150px;
+    height: 150px;
+    border: 10px solid  black;
+border-radius: 20%;
+margin: 1.5rem;
+}
+@keyframes flash {
+    0%{
+        opacity: 1;
+    }
+    50%{ opacity: 0.1;}
+    100%{opacity: 1;}
+}
+body >h1,h5{
+    font-weight: 900;
+    font-family: cursive;
+}
+.score{
+    margin: 0.25rem;
+}
+.score,h1,h5{
+    font-weight: bolder;
+    /* width: 20px; */
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    
+}
